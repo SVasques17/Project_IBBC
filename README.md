@@ -2,8 +2,8 @@
 Introduction to Bioinformatic and Computational Biology Project 2025/26
 
 ****************************************************************************
-*			SCRIPTS DA DISCIPLINA => IBBC			   *
-*			SARA VASQUES ======== FC58163			   *
+**			SCRIPTS DA DISCIPLINA => IBBC			   					  **
+**			SARA VASQUES ======== FC58163			   					  **
 ****************************************************************************
 
 REQUIREMENTS TO FUNCTION ***************************************************
