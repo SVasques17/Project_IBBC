@@ -10,7 +10,7 @@ MY_NAME="SaraVasques"
 
 # Where the folder will be created
 WORKING_DIR="$(pwd)/Project_ibbc_$MY_NAME"
-SUBFOLDERS=("01_raw_data" "03_trimms" "02_fastqc" "04_logs" "05_results")
+SUBFOLDERS=("01_raw_data" "02_trimms" "03_logs" "04_results")
 
 echo "Project directory being created..."
 

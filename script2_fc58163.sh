@@ -3,7 +3,7 @@
 ################################################################################
 # In this SCRIPT2 , the FASTQC, FASTP and MULTIQC analyses are done and every  #
 # output gets put on different folders:                                        #
-# 
+# results_fastqc, results_fastp and results_multiqc.                           #
 ################################################################################
 
 # Name to put in the folder
@@ -13,16 +13,15 @@ MY_NAME="SaraVasques"
 WORKING_DIR="$(pwd)/Project_ibbc_$MY_NAME"
 
 RAW_DATA_DIR="$WORKING_DIR/01_raw_data"
-FASTQC_DIR="$WORKING_DIR/02_fastqc"
-TRIMMS_DIR="$WORKING_DIR/03_trimms"
-LOGS_DIR="$WORKING_DIR/04_logs"
-RESULTS_DIR="$WORKING_DIR/05_results"
+TRIMMS_DIR="$WORKING_DIR/02_trimms"
+LOGS_DIR="$WORKING_DIR/03_logs"
+RESULTS_DIR="$WORKING_DIR/04_results"
 RESULTS_FASTQC="$RESULTS_DIR/results_fastqc"
 RESULTS_FASTP="$RESULTS_DIR/results_fastp"
 RESULTS_MULTIQC="$RESULTS_DIR/results_multiqc"
 LOGS="$LOGS_DIR/analysis_fc58163.log"
 
-mkdir -p "$RAW_DATA_DIR" "$FASTQC_DIR" "$TRIMMS_DIR" "$LOGS_DIR"
+mkdir -p "$RAW_DATA_DIR" "$TRIMMS_DIR" "$LOGS_DIR"
 mkdir -p "$RESULTS_FASTQC" "$RESULTS_FASTP" "$RESULTS_MULTIQC"
 
 echo "NEW RUN -----------------------------------" >> "$LOGS"
