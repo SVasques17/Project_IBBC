@@ -3,6 +3,7 @@
 ################################################################################
 #In this EXTRA SCRIPT, the objective is to move the .fastq.gz files to the     #
 #raw_data subfolder of the Project_ibbc_<name>.                                #
+#FC58163                                                                       #
 ################################################################################
 
 # Name to put in the folder

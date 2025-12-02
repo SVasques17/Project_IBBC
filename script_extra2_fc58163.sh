@@ -3,6 +3,7 @@
 ################################################################################
 #In this EXTRA SCRIPT, the objective is to copy the name of the .fastq.gz files#
 #to a txt file inside the Project_ibbc_<name>.                                 #
+#FC58163                                                                       #
 ################################################################################
 
 # Name to put in the folder

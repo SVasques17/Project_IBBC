@@ -4,6 +4,7 @@
 # In this SCRIPT2 , the FASTQC, FASTP and MULTIQC analyses are done and every  #
 # output gets put on different folders:                                        #
 # results_fastqc, results_fastp and results_multiqc.                           #
+# FC58163                                                                      #
 ################################################################################
 
 # Name to put in the folder

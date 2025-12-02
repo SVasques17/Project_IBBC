@@ -3,6 +3,7 @@
 ################################################################################
 #In this FIRST SCRIPT, the objective is to create the folder structure that we #
 #are going to use throughout the analysis.                                     #
+#FC58163                                                                       #
 ################################################################################
 
 # Name to put in the folder
